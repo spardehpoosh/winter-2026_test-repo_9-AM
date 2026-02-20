@@ -1,0 +1,37 @@
+---
+title: "test doc for 9 AM"
+author: "Sophie Pardehpoosh"
+date: "2026-02-20"
+format: html
+---
+
+
+# Set Up
+
+```{r}
+#| label: packages and data
+
+library(tidyverse) # general use package
+library(lterdatasampler) # package of data sets
+
+data(pie_crab) # crab size data set
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
