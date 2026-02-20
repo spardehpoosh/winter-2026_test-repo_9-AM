@@ -10,6 +10,7 @@ format: html
 
 ```{r}
 #| label: packages and data
+#| message: false
 
 library(tidyverse) # general use package
 library(lterdatasampler) # package of data sets
@@ -18,6 +19,18 @@ data(pie_crab) # crab size data set
 
 ```
 
+# Ecploratory data visualization 
+
+```{r}
+#| label: latitude and size plot
+
+# base layer: ggplot
+ggplot(data = pie_crab, # data set
+       aes(x = latitude, # x-axis should be latitude, y-axis is crab size
+           y = size)) +
+  # first layer: points to represent individual crabs
+  geom_point()
+```
 
 
 
